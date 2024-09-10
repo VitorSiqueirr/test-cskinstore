@@ -1,0 +1,47 @@
+{
+  "name": "cskinstore-backend",
+  "version": "1.0.0",
+  "description": "Back-end for CS:GO skin store",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts --ext .ts"
+  },
+  "keywords": [
+    "nest",
+    "nestjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/swagger": "^6.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.6",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "prisma": "^4.6.1",
+    "pg": "^8.8.0",
+    "bcrypt": "^5.0.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^18.0.0",
+    "@types/pg": "^8.6.4",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.8.0",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4",
+    "cskinstore-frontend": "file:../cskinstore-frontend"
+  }
+}
